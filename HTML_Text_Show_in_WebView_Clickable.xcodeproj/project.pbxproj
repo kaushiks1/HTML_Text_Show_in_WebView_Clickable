@@ -15,6 +15,10 @@
 		44E218731D6C7A1700CAB5F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E218711D6C7A1700CAB5F7 /* LaunchScreen.storyboard */; };
 		44E2187E1D6C7A1700CAB5F7 /* HTML_Text_Show_in_WebView_ClickableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2187D1D6C7A1700CAB5F7 /* HTML_Text_Show_in_WebView_ClickableTests.m */; };
 		44E218891D6C7A1700CAB5F7 /* HTML_Text_Show_in_WebView_ClickableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E218881D6C7A1700CAB5F7 /* HTML_Text_Show_in_WebView_ClickableUITests.m */; };
+		44E218981D6C7A9000CAB5F7 /* CompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E218971D6C7A9000CAB5F7 /* CompanyViewController.m */; };
+		44E2189A1D6C7AC400CAB5F7 /* ComapanyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44E218991D6C7AC400CAB5F7 /* ComapanyStoryboard.storyboard */; };
+		44E2189F1D6C7C9D00CAB5F7 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E2189E1D6C7C9C00CAB5F7 /* Utility.m */; };
+		44E218A11D6C83B500CAB5F7 /* CompanyFile.json in Resources */ = {isa = PBXBuildFile; fileRef = 44E218A01D6C83B500CAB5F7 /* CompanyFile.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		44E218841D6C7A1700CAB5F7 /* HTML_Text_Show_in_WebView_ClickableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTML_Text_Show_in_WebView_ClickableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E218881D6C7A1700CAB5F7 /* HTML_Text_Show_in_WebView_ClickableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTML_Text_Show_in_WebView_ClickableUITests.m; sourceTree = "<group>"; };
 		44E2188A1D6C7A1700CAB5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E218961D6C7A9000CAB5F7 /* CompanyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyViewController.h; sourceTree = "<group>"; };
+		44E218971D6C7A9000CAB5F7 /* CompanyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyViewController.m; sourceTree = "<group>"; };
+		44E218991D6C7AC400CAB5F7 /* ComapanyStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ComapanyStoryboard.storyboard; sourceTree = "<group>"; };
+		44E2189D1D6C7C9C00CAB5F7 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		44E2189E1D6C7C9C00CAB5F7 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		44E218A01D6C83B500CAB5F7 /* CompanyFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CompanyFile.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,12 @@
 				44E218691D6C7A1700CAB5F7 /* ViewController.h */,
 				44E2186A1D6C7A1700CAB5F7 /* ViewController.m */,
 				44E2186C1D6C7A1700CAB5F7 /* Main.storyboard */,
+				44E218961D6C7A9000CAB5F7 /* CompanyViewController.h */,
+				44E218971D6C7A9000CAB5F7 /* CompanyViewController.m */,
+				44E218991D6C7AC400CAB5F7 /* ComapanyStoryboard.storyboard */,
+				44E2189D1D6C7C9C00CAB5F7 /* Utility.h */,
+				44E2189E1D6C7C9C00CAB5F7 /* Utility.m */,
+				44E218A01D6C83B500CAB5F7 /* CompanyFile.json */,
 				44E2186F1D6C7A1700CAB5F7 /* Assets.xcassets */,
 				44E218711D6C7A1700CAB5F7 /* LaunchScreen.storyboard */,
 				44E218741D6C7A1700CAB5F7 /* Info.plist */,
@@ -243,7 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E218A11D6C83B500CAB5F7 /* CompanyFile.json in Resources */,
 				44E218731D6C7A1700CAB5F7 /* LaunchScreen.storyboard in Resources */,
+				44E2189A1D6C7AC400CAB5F7 /* ComapanyStoryboard.storyboard in Resources */,
 				44E218701D6C7A1700CAB5F7 /* Assets.xcassets in Resources */,
 				44E2186E1D6C7A1700CAB5F7 /* Main.storyboard in Resources */,
 			);
@@ -270,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E218981D6C7A9000CAB5F7 /* CompanyViewController.m in Sources */,
 				44E2186B1D6C7A1700CAB5F7 /* ViewController.m in Sources */,
+				44E2189F1D6C7C9D00CAB5F7 /* Utility.m in Sources */,
 				44E218681D6C7A1700CAB5F7 /* AppDelegate.m in Sources */,
 				44E218651D6C7A1700CAB5F7 /* main.m in Sources */,
 			);
